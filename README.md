@@ -11,7 +11,7 @@ password: target
 
 ## Installation
 
-1. Clone the project from [github](https://pip.pypa.io/en/stable/) to download the RESTful service.
+1. Clone the project from [github](https://github.com/kedikebba/target-case-study) to download the RESTful service.
 2. Import the project into your IDE preferrably IntelliJ.
 3. Run the following maven commands to Install.
 
