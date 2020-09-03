@@ -5,11 +5,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @NoArgsConstructor
 @Data
 public class PriceUpdateDTO {
 
-    @NotEmpty
+    @NotNull(message = "Price can not be null")
     private Double newPrice;
 }
